@@ -154,9 +154,13 @@ li a{
 
 .contact{
     display: flex;
-    justify-content: center;
+    flex-direction: column;   
     background-color: rgb(116, 114, 240);
     color: aliceblue;
     padding: 1rem;
     width: 100%;
+}
+
+.call{
+    font-size: 1.2rem;
 }
