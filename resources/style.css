@@ -42,11 +42,15 @@ h2{
 p{
     font-family: 'Playfair Display';
     font-weight: 400;
+    margin-left: 12rem;
+    margin-right: 12rem;
+    text-align: center;
 }
 
 article{
     font-family: 'Playfair Display';
     font-weight: 400;
+    text-align: center;
 }
 
 header{
@@ -108,18 +112,27 @@ li a{
 }
 .packages{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
+   width: 75%;
 }
 .labor{
-    width: 25%;
+    width: 35%;
     display: flex;
     flex-direction: column;
-
 }
+
+.mom{
+    border-radius: 2rem;
+}
+
 .postpartum{
-    width: 25%;
+    width: 35%;
     display: flex;
     flex-direction: column;
+}
+
+.baby{
+    border-radius: 2rem;
 }
 
 .employees{
